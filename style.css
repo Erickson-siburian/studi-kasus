@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  color: rgb(243, 239, 239);
+}
+body {
+  font-family: "lato";
+  width: 100%;
+  margin: auto;
+  /* background-color: #010101; */
+  background-image: url("./img/covid19.PNG");
+  background-attachment: fixed;
+  opacity: 0.9;
+  /* background-position: 500px 250px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  padding: 20px;
+  width: 100%;
+  opacity: 1;
+  color: black;
+}
+h2 {
+  opacity: 1;
+  padding-bottom: 10px;
+  text-align: left;
+  color: black;
+}
+
+#country {
+  /* width: 60%; */
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: rgb(10, 10, 10);
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+  width: 700px;
+  height: 80px;
+  position: relative;
+}
+
+h3 {
+  width: 100vw;
+  font-size: 20px;
+  opacity: 1;
+}
+h4 {
+  font-size: 13px;
+  opacity: 1;
+}
+h4:nth-child(3) {
+  color: #f1400a;
+  opacity: 1;
+}
